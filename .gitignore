@@ -40,3 +40,5 @@ captures/
 *.jks
 
 SmProducer/app/proguard-rules.pro
+
+SmConsumer/app/proguard-rules.pro

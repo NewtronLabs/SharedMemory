@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.newtronlabs.smconsumerdemo.MainActivity">
+
+    <TextView
+        style="@style/NewtronLabsTheme.MainFont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/app_info_header"
+        android:layout_marginTop="@dimen/margin_vertical_basic"
+        />
+
+    <TextView
+        style="@style/NewtronLabsTheme.SecondaryFont"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_info_content"
+        android:layout_marginLeft="@dimen/margin_horizontal_basic"
+        android:layout_marginRight="@dimen/margin_horizontal_basic"
+        />
+
+    <LinearLayout
+        android:id="@+id/content_holder"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/image_holder_min_height"
+        android:background="@drawable/image_holder_background"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginEnd="@dimen/activity_vertical_margin"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/NewtronLabsTheme.SecondaryFont.Important"
+            android:text="@string/usage_message"
+            android:background="?android:attr/colorBackground"
+            android:layout_marginEnd="@dimen/activity_vertical_margin"
+            android:layout_marginStart="@dimen/activity_vertical_margin"
+            />
+
+        <ImageView
+            android:id="@+id/img_remote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/colorBackground"
+            android:visibility="gone"
+            />
+
+    </LinearLayout>
+</LinearLayout>

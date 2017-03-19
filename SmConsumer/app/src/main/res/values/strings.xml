@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Sm-Consumer</string>
+    <string name="activity_title">Shared Memory - Consumer</string>
+
+    <string name="app_info_header">About</string>
+
+    <string name="app_info_content">The Newtron Labs Shared Memory library allows your
+        apps to overcome the Android IPC limitation of 1MB by letting apps share
+        a region in memory they can all read from and write to.</string>
+
+    <string name="usage_message">Tap to Load Remote Bitmap</string>
+    <string name="usage_message_failed">Unable to read remote memory. Verify the producer app is installed and has allocated a shared memory region.</string>
+</resources>

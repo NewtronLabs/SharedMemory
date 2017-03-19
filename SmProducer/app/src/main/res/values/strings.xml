@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Sm-Producer</string>
+    <string name="activity_title">Shared Memory - Producer</string>
+
+    <string name="app_info_header">About</string>
+
+    <string name="app_info_content">The Newtron Labs Shared Memory library allows your
+        apps to overcome the Android IPC limitation of 1MB by letting apps share
+        a region in memory they can all read from and write to.</string>
+
+    <string name="usage_message">Tap Share a Bitmap</string>
+    <string name="usage_message_loading">Loading Bitmap and Sharing...</string>
+    <string name="usage_message_failed">Unable shared the Bitmap.</string>
+
+    <string name="btn_clear_memory">Clear Shared Memory</string>
+</resources>

@@ -62,7 +62,7 @@ Log.d("Newtron", "Memory Read:"+dataStr);
 ```
 
 ### Additional Samples
-A set of more complex exmaples can be found in this repo's samples folders: SmProducer and SmConsumer. 
+A set of more complex exmaples can be found in this repo's samples folders: **SmProducer** and **SmConsumer**. 
 
 ---
 ## License

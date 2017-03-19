@@ -46,7 +46,7 @@ In order for an application to access a region of memory shaered by an external 
 
 ```java
 // This is the application id of the application or process which shared the region.
-String producerAppId= "com.newtronlabs.smproducerdemo";
+String producerAppId = "com.newtronlabs.smproducerdemo";
 
 // Name under wich the remote region was created.
 String regionName = "Test-Region"

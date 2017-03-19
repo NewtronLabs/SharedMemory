@@ -1,5 +1,4 @@
 # Shared Memory
----
 
 The Shared Memory library allows for the creation of memory regions that may be simultaneously accessed by multiple Android processes or applications. Developed to overcome the Android 1MB IPC limitation, this Shared Memory library allows you to exchange larger amounts of data between your Android applications. 
 
@@ -9,7 +8,7 @@ The Shared Memory library allows for the creation of memory regions that may be 
 
 Include the below dependencies in your `build.gradle` project.
 
-```
+```gradle
 allprojects {
     repositories {
         jcenter()
@@ -20,23 +19,26 @@ allprojects {
 
 In the `build.gradle` for your app.
 
-```
+```gradle
 compile 'com.newtronlabs.sharedmemory:sharedmemory:1.0.3'
 ```
 
 ### Sharing Memory - Producer
 From the application that wishes to shared its memory, allocate a shated memory region with a given name. 
+
 ```java
 // Allocate 2MB
 int sizeInBytes = 2*(1024*1024);
 String regionName = "Test-Region";
 ISharedMemory sharedMemory = SharedMemoryProducer.getInstance().allocate(regionName, sizeInBytes);
 ```
+
 Write data to memory:
 ```java
 byte[] strBytes = "Hello World!".getBytes();
 sharedMemory.writeBytes(strBytes, 0, 0, strBytes.length);
 ```
+
 Once an application has shared a memory region it can be accessed by other processes or application which are aware of it.
 
 ### Accessing Shared Memory - Consumer
@@ -58,6 +60,7 @@ byte[] dataBytes = new byte[remoteMemory.getSize()];
 String dataStr = new String(dataBytes);
 Log.d("Newtron", "Memory Read:"+dataStr);
 ```
+
 ### Additional Samples
 A set of more complex exmaples can be found in this repo's samples folder. 
 

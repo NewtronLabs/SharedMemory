@@ -53,7 +53,8 @@ String regionName = "Test-Region"
 
 // Note: The remote application must have allocated a memory region with the same
 //       name or this call will fail and return null.
-IRemoteSharedMemory remoteMemory = RemoteMemoryAdapter.getDefaultAdapter().getSharedMemory(context, producerAppId, regionName);
+IRemoteSharedMemory remoteMemory 
+         = RemoteMemoryAdapter.getDefaultAdapter().getSharedMemory(context, producerAppId, regionName);
 
 // Allocate memory to read shared content.
 byte[] dataBytes = new byte[remoteMemory.getSize()];

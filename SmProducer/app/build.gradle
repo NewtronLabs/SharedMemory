@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.newtronlabs.android'
 
 android {
     compileSdkVersion 25
@@ -23,5 +24,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.2.0'
 
     // Shared Memory Library
-    compile 'com.newtronlabs.sharedmemory:sharedmemory:1.0.3'
+    provided 'com.newtronlabs.sharedmemory:sharedmemory:2.0.0'
 }

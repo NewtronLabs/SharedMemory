@@ -15,6 +15,17 @@ The Shared Memory library allows for the creation of memory regions that may be 
 Include the below dependencies in your `build.gradle` project.
 
 ```gradle
+buildscript {
+    repositories {
+        jcenter()
+        maven { url "http://code.newtronlabs.com:8081/artifactory/libs-release-local" }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.3'
+        classpath "com.newtronlabs.android:plugin:1.1.0"
+    }
+}
+
 allprojects {
     repositories {
         jcenter()
@@ -26,7 +37,11 @@ allprojects {
 In the `build.gradle` for your app.
 
 ```gradle
-compile 'com.newtronlabs.sharedmemory:sharedmemory:1.0.3'
+apply plugin: 'com.newtronlabs.android'
+
+dependencies {
+    provided 'com.newtronlabs.sharedmemory:sharedmemory:2.0.0'
+}
 ```
 
 ### Sharing Memory - Producer

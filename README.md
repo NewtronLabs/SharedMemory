@@ -1,7 +1,3 @@
-Please take a few minutes and let us know how we are doing by filling out this survey: https://goo.gl/forms/97TYeG6Wx5CA4lBV2
-
----
-
 # Shared Memory
 
 The Shared Memory library allows for the creation of memory regions that may be simultaneously accessed by multiple Android processes or applications. Developed to overcome the Android 1MB IPC limitation, this Shared Memory library allows you to exchange larger amounts of data between your Android applications. 
@@ -105,4 +101,4 @@ You are solely responsible for determining the appropriateness of using Shared M
 
 ## Contact
 
-contact@newtronlabs.com
+solutions@newtronlabs.com

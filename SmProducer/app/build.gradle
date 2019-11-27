@@ -23,5 +23,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.2.0'
 
     // Shared Memory Library
-    provided 'com.newtronlabs.sharedmemory:sharedmemory:2.0.0'
+    provided 'com.newtronlabs.sharedmemory:sharedmemory:3.0.0'
 }

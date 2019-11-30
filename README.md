@@ -91,9 +91,7 @@ A set of more complex exmaples can be found in this repo's samples folders: **Sm
 ---
 ## License
 
-<script src="https://gist.github.com/NewtronLabs/216f45db2339e0bc638e7c14a6af9cc8"></script>
-
-*Patent Pending*
+https://gist.github.com/NewtronLabs/216f45db2339e0bc638e7c14a6af9cc8
 
 ## Contact
 

@@ -22,7 +22,7 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.5.2'
-        classpath 'com.newtronlabs.android:plugin:3.0.0'
+        classpath 'com.newtronlabs.android:plugin:4.0.0'
     }
 }
 
@@ -42,7 +42,7 @@ In the `build.gradle` for your app.
 
 ```gradle
 dependencies {
-    compileOnly 'com.newtronlabs.sharedmemory:sharedmemory:3.0.0'
+    compileOnly 'com.newtronlabs.sharedmemory:sharedmemory:4.0.0'
 }
 ```
 
@@ -91,11 +91,7 @@ A set of more complex exmaples can be found in this repo's samples folders: **Sm
 ---
 ## License
 
-Shared Memory binaries and source code can only be used in accordance with Freeware license. That is, freeware may be used without payment, but may not be modified. The developer of Shared Memory retains all rights to change, alter, adapt, and/or distribute the software. Shared Memory is not liable for any damages and/or losses incurred during the use of Shared Memory.
-
-You may not decompile, reverse engineer, pull apart, or otherwise attempt to dissect the source code, algorithm, technique or other information from the binary code of Shared Memory unless it is authorized by existing applicable law and only to the extent authorized by such law. In the event that such a law applies, user may only attempt the foregoing if: (1) user has contacted Newtron Labs to request such information and Newtron Labs has failed to respond in a reasonable time, or (2) reverse engineering is strictly necessary to obtain such information and Newtron Labs has failed to reply. Any information obtained by user from Newtron Labs may be used only in accordance to the terms agreed upon by Newtron Labs and in adherence to Newtron Labs confidentiality policy. Such information supplied by Newtron Labs and received by user shall not be disclosed to a third party or used to create a software substantially similar to the technique or expression of the Newtron Labs Shared Memory software.
-
-You are solely responsible for determining the appropriateness of using Shared Memory and assume any risks associated with Your use of Shared Memory. In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall Newtron Labs be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Shared Memory (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if Newtron Labs has been advised of the possibility of such damages. 
+<script src="https://gist.github.com/NewtronLabs/216f45db2339e0bc638e7c14a6af9cc8"></script>
 
 *Patent Pending*
 

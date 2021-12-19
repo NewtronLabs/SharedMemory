@@ -18,26 +18,18 @@ Include the below dependencies in your `build.gradle` project.
 buildscript {
     repositories {
         google()
-        maven { url "https://newtronlabs.jfrog.io/artifactory/libs-release-local"
-            metadataSources {
-                artifact()
-            }
-        }
+        maven { url "https://newtronlabs.jfrog.io/artifactory/libs-release-local" }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.5.2'
-        classpath 'com.newtronlabs.android:plugin:5.0.1-alpha01'
+        classpath 'com.android.tools.build:gradle:7.0.4'
+        classpath 'com.newtronlabs.android:plugin:5.0.2'
     }
 }
 
 allprojects {
     repositories {
         google()
-        maven { url "https://newtronlabs.jfrog.io/artifactory/libs-release-local"
-            metadataSources {
-                artifact()
-            }
-        }
+        maven { url "https://newtronlabs.jfrog.io/artifactory/libs-release-local" }
     }
 }
 
@@ -50,7 +42,7 @@ In the `build.gradle` for your app.
 
 ```gradle
 dependencies {
-    compileOnly 'com.newtronlabs.sharedmemory:sharedmemory:4.0.0'
+    compileOnly 'com.newtronlabs.sharedmemory:sharedmemory:5.0.0-alpha01'
 }
 ```
 
